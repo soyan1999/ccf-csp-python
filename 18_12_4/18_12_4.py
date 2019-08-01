@@ -17,7 +17,7 @@ in_set = {root}
 heap = [(item + (item[0],)) for item in road_set[root]]
 heapify(heap)
 
-while len(in_set) < n and len(heap) != 0:
+while len(in_set) < n or len(heap) != 0:
     dis, dst, length = heappop(heap)
     if dst not in in_set:
         in_set.add(dst)
@@ -28,4 +28,3 @@ while len(in_set) < n and len(heap) != 0:
                 heappush(heap, (dst + ln, dt, ln))
 
 print(max_length)
-
