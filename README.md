@@ -3,7 +3,7 @@ ccf考试历届真题python语言解答（持续更新中）
 ### Tips
 * eval()很好用，但是作为输入效率比较低
 * collections与heapq等库的数据结构很好用
-* python递归层数极限为1000，可使用import sys sys.setrecursionlimit(100000)提升到4000左右，再高需要改为非递归算法
+* python递归层数极限为1000，可使用sys.setrecursionlimit(100000)提升到4000左右，再高需要改为非递归算法
 ### 解答情况
 由于考试时限时10s，而测试时限时1s，部分题目采用最优解也无法运行完成，可尝试使用c++重写验证  
 
