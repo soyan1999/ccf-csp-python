@@ -38,4 +38,4 @@ for i in range(op_num):
             if len(slts[j]) == 0:
                 print(-1)
             else:
-                print(' '.join([str(it) for it in sorted(slts[j])]))
+                print(' '.join([str(it) for it in slts[j]]))
